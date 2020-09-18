@@ -1,9 +1,8 @@
-a= 5
-b=6
+
 def add(a,b):
-    return a+b
-print(add(a,b))
-print("rajesj")
+    return str(a+b)+" "+"is sum of numbers"
+print(add(5,4))
+
 
 def max_of_num(num1,num2,num3):
     if num1>num2 and num1>num3:
